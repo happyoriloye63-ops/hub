@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StudentHub Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <div class="logo">
+            🎓 StudentHub
+        </div>
+
+        <button id="logoutBtn">
+            Logout
+        </button>
+
+    </header>
+
+
+    <!-- DASHBOARD -->
+    <main class="dashboard">
+
+        <section class="welcome">
+
+            <h1>
+                Welcome, <span id="studentName">Student</span>! 👋
+            </h1>
+
+            <p>
+                Welcome to your StudentHub dashboard.
+            </p>
+
+        </section>
+
+
+        <!-- DASHBOARD CARDS -->
+        <section class="dashboard-cards">
+
+            <div class="dashboard-card">
+                <div class="card-icon">📚</div>
+
+                <h2>Courses</h2>
+
+                <p>
+                    View and manage your courses.
+                </p>
+
+                <button>
+                    View Courses
+                </button>
+            </div>
+
+
+            <div class="dashboard-card">
+                <div class="card-icon">📝</div>
+
+                <h2>Assignments</h2>
+
+                <p>
+                    Check your assignments.
+                </p>
+
+                <button>
+                    View Assignments
+                </button>
+            </div>
+
+
+            <div class="dashboard-card">
+                <div class="card-icon">🧠</div>
+
+                <h2>Quizzes</h2>
+
+                <p>
+                    Test your knowledge.
+                </p>
+
+                <button>
+                    Take Quiz
+                </button>
+            </div>
+
+
+            <div class="dashboard-card">
+                <div class="card-icon">🏆</div>
+
+                <h2>Leaderboard</h2>
+
+                <p>
+                    See student rankings.
+                </p>
+
+                <button>
+                    View Leaderboard
+                </button>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="dashboard.js"></script>
+
+</body>
+</html>
